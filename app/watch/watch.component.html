@@ -1,0 +1,10 @@
+<div class="outside">
+    
+    <div class="inside" *ngFor="let watch of watchList">
+    <img [src]="watch.img" alt="" >
+    <h5>{{watch.name}}</h5>
+    <h6>Price:<s>{{watch.price2}}</s>-{{watch.price}}</h6>
+    <p>Rating: <ngb-rating [readonly]="true" [max]="5"></ngb-rating> </p>
+    <button value="submit" (click)="redirect()">View-Product</button>
+</div>
+</div>

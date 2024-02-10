@@ -1,0 +1,46 @@
+
+
+
+
+ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: burlywood ;
+
+}
+.a:hover{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px burlywood,0 0 60px burlywood ,0 0 100px burlywood  ;
+}
+ul li {
+    list-style-type: none;
+    float: left;
+    margin: 25px;
+    padding: 2px;
+
+}
+.search {
+    display: grid;
+    justify-content: end;
+    text-align: center;
+    width: 350px;
+    height: 25px;
+}
+.nav {
+    clear: both;
+    border-radius: 20px;
+    background-color: black;
+    height: 75px;
+}
+
+li img {
+    width: 100px;
+    height: 100px;
+    filter: contrast(10%) brightness(1500%);
+    position: relative;
+    left: 10px;
+    bottom: 36px;
+    filter: contrast(10%) brightness(1500%);
+
+}

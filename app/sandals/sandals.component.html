@@ -1,0 +1,9 @@
+<div class="outside"> 
+    <div class="inside" *ngFor="let shoe of shoesList">
+    <img [src]="shoe.img" alt="" >
+    <h5>{{shoe.name}}</h5>
+    <h6>Price:<s>{{shoe.price2}}</s>-{{shoe.price}}</h6>
+    <p>Rating: <ngb-rating [readonly]="true" [max]="5"></ngb-rating> </p>
+    <button value="submit ">Buy</button>
+</div>
+</div>

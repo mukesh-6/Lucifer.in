@@ -1,0 +1,50 @@
+.inside{
+     border: 1px solid black; 
+    height:fit-content;
+    margin-top: 50px;
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    align-items:center;
+    text-align:center ;
+    /* width: 400px; */
+    height: 550px;width: 300px;
+    background-color: black;
+   
+    
+    
+}
+button{
+    /* background-color: burlywood; */
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius:20px ;
+    /* width: 50%; */
+   /* margin-left: 50px; */
+   margin-top: 10px;
+}
+img{
+    border-radius: 20px;
+    height: 350px;
+}
+:hover img{
+    cursor: pointer;
+}
+.inside:hover{
+    background-color:burlywood;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    /* background-color: rgb(111, 142, 111); */
+    border-radius: 1px 1px 1px 1px #2b8643;
+}
+.outside{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.inside h5{
+    color: white;
+
+}

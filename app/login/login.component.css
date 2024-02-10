@@ -1,0 +1,26 @@
+.box{
+    
+    color: rgba(255, 255, 255, 0.547);
+    width: 550px;
+    height: 300px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-left: -5%;
+    margin-top: 10%;
+    background-color: transparent white;
+
+}
+.body{
+    background-color: #f4e8e8;
+    width: 80%;
+    height: 550px;
+    display: grid;
+    justify-items: center;
+    margin-left: 10%;
+    margin-top:50px;
+    background-image: url("../../assets/images/logo-removebg-preview.png");
+    
+
+
+}
